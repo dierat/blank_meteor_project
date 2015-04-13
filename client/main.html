@@ -1,8 +1,22 @@
 <head>
   <title></title>
 </head>
-
 <body>
-  <h1></h1>
-  
 </body>
+
+<template name="layout">
+  {{> header}}
+  <div id="content">
+    {{> yield}}
+  </div>
+  {{> footer}}
+</template>
+
+<template name="header">
+</template>
+
+<template name="home">
+</template>
+
+<template name="footer">
+</template>
